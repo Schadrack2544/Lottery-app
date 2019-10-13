@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="lottery.css">
+    
+    <title>Lottery app</title>
+</head>
+<body>
+      <div class="mainheader">
+            <h2>Lottery app</h2>
+        </div>
+    <div class="lottery">
+        <div class="generator">
+            <div class="generatorheader">
+            <div class="header"><h3>Generate numbers</h3></div>
+            <button id="lot_generator">Generate</button>
+            </div>
+            <div class="gennumbers" id="genN">
+            </div>
+        </div>
+        <div class="checker">
+            <div class="checkerheader">
+            <div class="header"><h3>Check numbers</h3></div>
+            <button id="lot_checker" disabled>Check</button>
+            </div>
+            <div class="winnumbers" id="winN">
+            </div>
+        </div>
+    </div>
+    <script src="lottery.js"></script>
+</body>
+</html>
